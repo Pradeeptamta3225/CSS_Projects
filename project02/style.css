@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width:  100%;
+    height: 100%;
+}
+
+
+#intro{
+    height: 40%;
+    width: 100%;
+    background-color: blanchedalmond;
+    padding: 50px;
+}
+
+#intro h1{
+    font-size: 130px;
+    line-height: 100px;
+    letter-spacing: -7px;
+}
+
+#place{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#place h3{
+    font-size: 28px;
+    font-weight: 600px;
+}
+
+#hero-img{
+        height: 373px;
+        width: 100%;
+        /* background-image: url('/CSS_Projects/project02/IMG_0179.JPG'); */
+        /* background-color: orange; */
+}
